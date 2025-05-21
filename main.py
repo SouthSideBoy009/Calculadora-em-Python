@@ -46,7 +46,7 @@ app_label.place(x=0, y=0)
 
 
 # criação de botões
-# 1º camada
+# 1º camada de botões
 
 button_clear = Button(body, command=clear,text='C', width=11, height=2, bg='gray', fg='black', 
                       font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
@@ -60,7 +60,7 @@ button_divide = Button(body, command=lambda: show_values('/') , text='/', width=
                        font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 button_divide.place(x=177, y=0)
 
-# 2º camada
+# 2º camada de botões
 
 button_7 = Button(body, command=lambda: show_values('7') , text='7', width=5, height=2, bg='gray', fg='black', 
                       font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
@@ -114,7 +114,7 @@ button_plus = Button(body, command=lambda: show_values('+') , text='+', width=5,
                        font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 button_plus.place(x=177, y=156)
 
-# 5º camada
+# 5º camada de botões
 
 button_0 = Button(body, command=lambda: show_values('0') , text='0', width=11, height=2, bg='gray', fg='black', 
                       font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
